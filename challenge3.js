@@ -5,7 +5,7 @@ Use array, strings, .charAt, .push, if statement
 */
 
 function onlyTs(array) {
-    var tWords = []
+    var tWords = [];
     for (i = 0; i < array.length; i++) {
         if (array[i].charAt(0) === "t" || array[i].charAt(0) === "T") {
             tWords.push(array[i])
